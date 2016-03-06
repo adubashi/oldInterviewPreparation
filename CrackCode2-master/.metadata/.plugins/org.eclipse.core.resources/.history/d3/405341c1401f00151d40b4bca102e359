@@ -1,0 +1,11 @@
+import sortedToBST.TreeNode;
+
+
+public class commonAncestorOfBTree {
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+
+}

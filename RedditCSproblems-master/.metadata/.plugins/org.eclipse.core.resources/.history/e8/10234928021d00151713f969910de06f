@@ -1,0 +1,7 @@
+
+public class QueueUsingStacks {
+	
+	Stack<Integer> stackNew;
+	
+
+}

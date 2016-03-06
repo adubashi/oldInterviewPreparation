@@ -1,0 +1,16 @@
+
+public class randomSetOfMIntegers {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int rand(int lower, int higher){
+		return lower + (int)(Math.random() * (higher - lower + 1));
+	}
+
+}

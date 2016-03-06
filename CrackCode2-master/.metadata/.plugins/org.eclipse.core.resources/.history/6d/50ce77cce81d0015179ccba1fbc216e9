@@ -1,0 +1,14 @@
+import java.util.*;
+
+
+
+public class permutationsOfAString {
+	
+	public static ArrayList<String> getPerms(String str){
+		if(str == null){
+			return null;
+		}
+	}
+	
+
+}

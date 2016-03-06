@@ -1,0 +1,6 @@
+import java.util.*;
+public class GraphNode {
+	private char NodeLabel;
+	private int NodeID;
+
+}

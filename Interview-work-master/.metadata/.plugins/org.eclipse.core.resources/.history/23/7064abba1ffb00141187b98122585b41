@@ -1,0 +1,44 @@
+
+public class FindThreeSmallestCommonNumbers {
+	
+	public static void main(String[] Args){
+		
+		int[] arr = {5,7,10,25,30,63,64};
+		int[] arr2 = {-1,4,5,67,7,8,50};
+		int[] arr3 = {1,4,10,14};
+		
+		System.out.println(ThreeSmall(arr,arr2,arr3));
+		
+		
+		
+	}
+	
+	
+	//3 arrays
+	//
+	public static int ThreeSmall(int[] arr, int[] arr2, int[] arr3){
+		//Find iteration distance
+		
+		int i = 0, j = 0, k = 0;
+		
+		while( i < arr.length && j < arr2.length && k < arr3.length){
+			if(arr[i] == arr[j] && arr[j] == arr[k]){
+				return arr[i];
+			} 
+			
+			if(arr[i] <= arr2[j] && arr[i] <= arr3[k]){
+				i++;
+			} else if(arr2[j] <= arr[i] && arr2[j] <= arr3[i]){
+				j++;
+			} else if(arr3[k] <= arr[i] && arr3[k] <= arr2[j]){
+				k++;
+			}
+		}
+		
+		return -1;
+		
+		
+		
+	}
+
+}

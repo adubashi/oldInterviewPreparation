@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class findSmallestElementInBST {
+
+	/**
+	 * @param args
+	 */
+	public static class BSTNode{
+		int data;
+		BSTNode left;
+		BSTNode right;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

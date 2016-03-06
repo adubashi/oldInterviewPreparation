@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+
+public class insertionSort {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] array = {5,5,3,2,1,-9};
+		selectionSort(array);
+		System.out.println(Arrays.toString(array));
+
+	}
+
+}

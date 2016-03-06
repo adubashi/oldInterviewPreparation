@@ -1,0 +1,35 @@
+
+public class RemoveConsecutiveDuplicates {
+
+	public static void main(String[] args) {
+		char[] str = {'a','a','a','b','c','c','c'};
+		
+		for(int i = 0;  i< str.length; i++)
+
+	}
+	
+	public static void removeDuplicates(char[] str) {
+		if (str == null) return;
+		int len = str.length;
+		if (len < 2) return;
+		int tail = 1;
+		
+		 for (int i = 1; i < len; ++i) { 
+			    int j;
+			    // for every char in outer loop check if that char is already seen.
+			    // char in [0,tail) are all unique.
+			    for (j = 0; j < tail; ++j) {
+			      if (str[i] == str[j]) break; // break if we find duplicate.
+			    }
+			    // if j reachs tail..we did not break, which implies this char at pos i
+			    // is not a duplicate. So we need to add it our "unique char list"
+			    // we add it to the end, that is at pos tail.
+			    if (j == tail) {
+			      str[tail] = str[i]; // add
+			      ++tail; // increment tail...[0,tail) is still "unique char list"
+			    }
+		  }
+		  str[tail] = 0; // add a 0 at the end to mark the end of the unique char.
+	}
+
+}

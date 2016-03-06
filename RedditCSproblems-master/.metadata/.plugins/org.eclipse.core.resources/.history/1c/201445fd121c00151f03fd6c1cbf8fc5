@@ -1,0 +1,30 @@
+
+public class verifyBST {
+
+	/**
+	 * @param args
+	 */
+	
+	public static class BSTNode{
+		int data;
+		BSTNode left;
+		BSTNode right;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean isBSTrec(BSTNode root, int maxVal, int minVal){
+		if(root == null){
+			return true;
+		}
+		
+		if(root.data < maxVal || root.data > minVal){
+			
+		}
+	}
+
+}

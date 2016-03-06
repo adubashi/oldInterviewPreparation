@@ -1,0 +1,8 @@
+
+public class Stack {
+
+	public static class StackNode {
+		public int data;
+	}
+
+}

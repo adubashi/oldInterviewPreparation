@@ -1,0 +1,9 @@
+
+public class RemoveDuplicates {
+	
+	
+	public static void removeDups(char[] str){
+		
+	}
+
+}

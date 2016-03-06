@@ -1,0 +1,7 @@
+
+public class countSteps {
+	public static int countWays(int n){
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+
+public class PalindromeSubstrings {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static boolean is_palindrome(String input, int i, int j){
+		while(i < j){
+			if(input.charAt(i) != input.charAt(j)){
+				return false;		
+			}
+			i++;
+			j--;
+		}
+		return true;
+	}
+	
+	//Naive solution
+	
+	public static int findAllSubstrings(String input){
+		int count = 0;
+		for(int i = 0; i < input.length(); i++){
+			for(int j = i + 1; j <input.length(); j++){
+				if(is_palindrome(input,i,j)){
+					System.out.print(input.substring(i, j+1) + ",");
+					count++;
+				}
+			}
+		}
+		return count;
+	}
+	///////////////////////
+	//New algorithm ///
+	
+	public static int  find_palindromes_in_sub_string(String input, int j, int k)
+	
+		
+		
+		
+		
+		
+		
+		return 0;
+	}
+	
+	
+}

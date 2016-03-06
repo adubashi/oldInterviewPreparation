@@ -1,0 +1,22 @@
+import java.util.*;
+
+
+public class Queue {
+	
+	public static class StackNode {
+		public int data;
+		public StackNode next;
+		
+		public StackNode(int data){
+			this.data = data;
+		}
+		
+		public int getData(){
+			return this.data;
+		}
+	}
+	
+	public StackNode top;
+	public int size;
+
+}

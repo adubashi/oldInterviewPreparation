@@ -1,0 +1,18 @@
+import java.util.*;
+
+
+public class commonAncestorOfBTree {
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+	
+	public static boolean covers(TreeNode root, TreeNode p){
+		if(root == null) return false;
+		if(root == p) return true;s
+		
+		return covers(root.left,p)
+	}
+
+}

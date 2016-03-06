@@ -1,0 +1,26 @@
+
+public class binarySearchRotated {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int binarySearch(
+			int[] arr, 
+			int st, 
+			int end,
+			int key)
+	{
+		if(st > end){
+			return -1;
+		}
+		
+		if(arr[mid] == key){
+			return mid;
+		}
+		
+		return -1;
+	}
+
+}

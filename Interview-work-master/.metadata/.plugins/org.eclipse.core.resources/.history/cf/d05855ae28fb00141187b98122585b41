@@ -1,0 +1,29 @@
+
+public class MaximumStockProfit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int maxProfit(int[] prices){
+		
+		int curProfit = Integer.MIN_VALUE;
+		
+		int curBuy = prices[0];
+		int globalSell = prices[1];
+		
+		int globalProfit = globalSell - curBuy;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return 1;
+	}
+}

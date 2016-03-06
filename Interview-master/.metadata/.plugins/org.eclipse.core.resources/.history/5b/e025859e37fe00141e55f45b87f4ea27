@@ -1,0 +1,7 @@
+import java.util.*;
+public class SameSetOfNumbers {
+	public static boolean sameSet(){
+		Hashtable<Integer, Integer> test  = new Hashtable();
+	}
+
+}

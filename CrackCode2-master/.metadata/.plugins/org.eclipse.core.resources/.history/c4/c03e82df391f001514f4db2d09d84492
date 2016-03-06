@@ -1,0 +1,6 @@
+
+public class GraphNode {
+	private char NodeLabel
+	private int NodeID
+
+}

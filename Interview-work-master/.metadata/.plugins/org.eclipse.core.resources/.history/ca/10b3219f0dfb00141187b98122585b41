@@ -1,0 +1,15 @@
+
+public class FibonacciSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void fib(int n){
+		if(n == 0){
+			System.out.print(0);
+		}
+	}
+
+}

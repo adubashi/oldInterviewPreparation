@@ -1,0 +1,29 @@
+import java.util.*;
+public class SameSetOfNumbers {
+	
+	
+	public static void main(String Args[]){
+		int [] a1 = {1,2,3};
+		int [] a2 = {3,2,1};
+		
+		System.out.println(sameSet(a1,a2))
+	}
+	
+	
+	
+	public static boolean sameSet(int[] a1, int[] a2){
+		boolean val = false;
+		Hashtable<Integer,Integer> temp = new Hashtable<Integer,Integer>();
+		for(int i : a1)
+			temp.put(i,0);
+		for(int i : a2)
+			if(temp.containsKey(i))
+				System.out.print(i + " ");
+				val = true;
+				
+		return val;
+				
+		
+	}
+
+}

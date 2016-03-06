@@ -1,0 +1,25 @@
+ 
+import java.util.*;
+
+public class commonElements {
+	
+	public static void main(String Args[]){
+		int[] array = {1,2,3,4,5,6,6};
+		int[] array2 ={1,2,5};
+		
+		displayCommonElements(array,array2);
+	}
+	
+	
+	
+	public static void displayCommonElements(int []a1,int []a2)
+	{
+		Hashtable<Integer,Integer> temp = new Hashtable<Integer,Integer>();
+		for(int i : a1)
+			temp.put(i,0);
+		for(int i : a2)
+			if(temp.containsKey(i))
+				System.out.print(i + " ");
+	}
+
+}

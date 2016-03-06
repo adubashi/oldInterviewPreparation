@@ -1,0 +1,30 @@
+import java.util.*;
+public class RemoveDuplicates {
+	
+	
+	public static void main(String Args[]){
+		
+		
+		char[] str = {'a','a','b','c'};
+		System.out.println(Arrays.toString(str));
+		removeDups(str);
+		
+		System.out.println(Arrays.toString(str));
+	}
+	
+	
+	public static void removeDups(char[] str){
+		Hashtable<Character, Integer> number = new Hashtable<Character, Integer>();
+		int current = 0; 
+		int last = 0;
+		
+		for(current = 0; current < str.length; current++ ){
+			if(number.containsValue(str[current])){
+				str[last++] = str[current];
+				number.put(str[current],current);
+			}
+			
+		}
+	}
+
+}

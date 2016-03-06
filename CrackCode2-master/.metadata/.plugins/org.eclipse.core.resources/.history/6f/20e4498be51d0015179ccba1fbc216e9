@@ -1,0 +1,8 @@
+
+public class magicIndex {
+	
+	public static int magicFast(int[] array, int start, int end){
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class paintFill {
+	
+	enum Color {
+		Black, White, Red, Yellow, Green		
+	}
+	
+	public static boolean paintFillRec(Color[][] screen, int x, int y, Color ocolor, Color ncolor){
+		
+		if(x < 0 || x >= screen[0].length ||
+		   y < 0 || y >= screen.length){
+			
+		}
+			
+	}
+
+}

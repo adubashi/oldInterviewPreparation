@@ -1,0 +1,11 @@
+import sortedToBST.TreeNode;
+
+
+public class ValidateBST {
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+
+}

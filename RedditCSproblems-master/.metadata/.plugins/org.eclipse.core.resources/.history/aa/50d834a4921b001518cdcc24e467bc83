@@ -1,0 +1,15 @@
+
+public class findNonRepeatedElement {
+	int result = 0;
+	for (int a : arr)
+	    result ^= a;
+	
+	
+	public static int findNonRepeatedElement(int[] array){
+		int result = 0;
+		for (int a : arr)
+		    result ^= a;
+		
+	}
+
+}

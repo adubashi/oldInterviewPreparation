@@ -1,0 +1,15 @@
+
+public class allsumCombinations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void printList(List<Integer> v){
+		for (int i : v){
+			System.out.print(i + ",")
+		}
+	}
+
+}

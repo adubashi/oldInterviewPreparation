@@ -1,0 +1,24 @@
+
+public class MaximumStockProfit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int maxProfit(int[] prices){
+		
+		int curProfit = Integer.MIN_VALUE;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return 1;
+	}
+}

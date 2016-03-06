@@ -1,0 +1,8 @@
+import java.util.*;
+public class GroupingAnagrams2 {
+	
+	public void sort(String[] array){
+		
+	}
+
+}

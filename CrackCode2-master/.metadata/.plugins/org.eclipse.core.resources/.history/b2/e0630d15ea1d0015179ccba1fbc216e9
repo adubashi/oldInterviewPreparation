@@ -1,0 +1,14 @@
+import java.util.*;
+
+
+public class nPairsParen {
+	
+	public static Set<String> generateParens(int remaining){
+		Set<String> set =  new HashSet<String>();
+		
+		
+	}
+	
+	
+
+}

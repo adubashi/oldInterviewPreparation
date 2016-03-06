@@ -1,0 +1,13 @@
+
+public class CircularLinkedList {
+	public class Node{
+		public:
+		int data;
+		Node next;
+	}
+	
+	public static void printCircularList(Node head){
+		Node cur = head;
+	}
+
+}

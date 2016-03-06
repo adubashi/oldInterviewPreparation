@@ -1,0 +1,45 @@
+
+public class Stack {
+
+	public static class StackNode {
+		public int data;
+		public StackNode next;
+		
+		public StackNode(int data){
+			this.data = data;
+		}
+	}
+	
+	public StackNode top;
+	public int size;
+	
+	
+	public Stack(){
+		top = null;
+		size = 0;
+	}
+	public void push(int data){
+		StackNode newNode = new StackNode(data);
+		newNode.next = top;
+		top = newNode;	
+	}
+	public void pop(){
+		if(top == null){
+			System.out.println("Print Empty");
+		} else{
+			top = top.next;
+		}
+		
+	}
+	public int peek(){
+		return top.data;
+	}
+	public int getSize(){
+		return size;
+	}
+	
+	public boolean isEmpty(){
+		return top == null;
+	}
+
+}

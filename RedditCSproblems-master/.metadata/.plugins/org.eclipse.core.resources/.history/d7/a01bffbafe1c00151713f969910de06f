@@ -1,0 +1,12 @@
+import java.util.*;
+
+
+
+public class MinStack extends java.util.Stack<Integer> {
+	
+	
+	
+	
+	
+
+}

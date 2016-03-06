@@ -1,0 +1,24 @@
+
+public class LinkedListPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static LinkedListNode reverseList(LinkedListNode head){
+		  LinkedListNode previousNode=null;  
+		  LinkedListNode nextNode; 
+		  while(head !=null)  
+		  {  
+			  nextNode = head.next;
+			  head.next = previousNode;
+			  previousNode = head;
+			  
+			  head = nextNode;
+		  } 
+		  return previousNode;
+
+	}
+
+}

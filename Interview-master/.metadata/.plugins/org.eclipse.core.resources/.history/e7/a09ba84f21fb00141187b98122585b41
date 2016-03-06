@@ -1,0 +1,20 @@
+
+public class MoveZerosToLeft {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void moveZerosToLeft(int[] A){
+		if(A == null){
+			return;
+		}
+		
+		int write_index = A.length - 1;
+		int read_index = A.length -1;
+		
+		while(read_index >= 0)
+	}
+
+}

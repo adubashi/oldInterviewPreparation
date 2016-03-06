@@ -1,0 +1,23 @@
+
+public class FibonacciSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void fib(int n){
+		if(n == 0){
+			System.out.print(0);
+		} 
+		if(n == 1 || n == 2){
+			System.out.print(2);
+		}
+		
+		int j = 0;
+		for(int i = 3; i<= n; i++){
+			int j = (i-1) + (i-2);
+		}
+	}
+
+}

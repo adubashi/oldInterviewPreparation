@@ -1,0 +1,17 @@
+import java.util.*;
+public class emptyStringSearch {
+	
+	public int searchR(String[] strings, String str, int first,int last){
+			
+		if(first > last) {
+			return -1;
+		}
+		int mid = (last + first)/2;
+		
+		if(strings[mid].isEmpty()){
+			int left = mid - 1;
+			
+		}
+	}
+
+}

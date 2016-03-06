@@ -1,0 +1,32 @@
+import java.util.*;
+public class SameSetOfNumbers {
+	
+	
+	public static void main(String Args[]){
+		int [] a1 = {1,2,3};
+		int [] a2 = {3,2,2};
+		
+		System.out.println(sameSet(a1,a2));
+	}
+	
+	
+	//Checks if the numbers are made from the set same 
+	public static boolean sameSet(int[] a1, int[] a2){
+		boolean val = true;
+		Hashtable<Integer,Integer> temp = new Hashtable<Integer,Integer>();
+		for(int i : a1)
+			temp.put(i,0);
+		for(int i : a2)
+			if(temp.containsKey(i))
+				int j = temp.containsKey(i);
+				System.out.print(i + " ");
+			else{
+				val =false;
+			}
+		
+		return  val;
+				
+		
+	}
+
+}

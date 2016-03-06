@@ -1,0 +1,29 @@
+import java.util.*;
+
+
+public class inOrderSucessorOfBST {
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+	
+	public static TreeNode leftMostChild(TreeNode n){
+		if(n == null){
+			return null;
+		}
+		while(n.left != null){
+			n = n.left;
+		}
+		return n;
+	}
+	
+	public static TreeNode inorderSucc(TreeNode n){
+		if(n == null){
+			return null;
+		}
+		
+		if(n.right != null)
+	}
+
+}

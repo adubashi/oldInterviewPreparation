@@ -1,0 +1,47 @@
+import java.util.*;
+
+
+public class levelOrder {
+
+	/**
+	 * @param args
+	 */
+	
+	public static class BNode{
+		int data;
+		BNode left;
+		BNode right;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void levelOrderTraversal(BNode root){
+		if(root == null){
+			return;
+		}
+		
+		Queue<BNode> currentQueue = new ArrayDeque<BNode>();
+		
+		currentQueue.add(root);
+		
+		while(!currentQueue.isEmpty()){
+			BNode temp = currentQueue.poll();
+			
+			System.out.print(temp.data + " ");
+			
+			if(temp.left != null){
+				currentQueue.add(temp.left);
+			}
+			if(temp.left != null){
+				currentQueue.add(temp.left);
+			}
+			
+		}
+		
+		
+	}
+
+}

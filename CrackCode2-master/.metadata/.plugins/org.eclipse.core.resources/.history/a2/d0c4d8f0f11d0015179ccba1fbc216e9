@@ -1,0 +1,10 @@
+import java.util.*;
+public class anagramSorter {
+	
+	public void sort(String[] array){
+		
+		Hashtable<String, LinkedList<String>> hash = new Hashtable<String, LinkedList<String>>();
+		
+	}
+
+}

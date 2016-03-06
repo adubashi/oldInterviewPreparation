@@ -1,0 +1,8 @@
+
+public class HashTable {
+	private int TABLE_SIZE = 128;
+	private HashEntry[] table;
+	
+	
+
+}

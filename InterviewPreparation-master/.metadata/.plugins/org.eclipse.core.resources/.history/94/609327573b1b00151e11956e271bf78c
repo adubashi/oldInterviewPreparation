@@ -1,0 +1,34 @@
+
+public class allPairsThatSum {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void printPairsUsingSet(int[] numbers, int n){
+        if(numbers.length < 2){
+            return;
+        }        
+        Set set = new HashSet(numbers.length);
+        
+        for(int value : numbers){
+            int target = n - value;
+            
+            // if target number is not in set then add
+            if(!set.contains(target)){
+                set.add(value);
+            }else {
+                System.out.printf("(%d, %d) %n", value, target);
+            }
+        }
+    }
+
+
+Read more: http://javarevisited.blogspot.com/2014/08/how-to-find-all-pairs-in-array-of-integers-whose-sum-equal-given-number-java.html#ixzz3e4xZRrZd
+
+
+}

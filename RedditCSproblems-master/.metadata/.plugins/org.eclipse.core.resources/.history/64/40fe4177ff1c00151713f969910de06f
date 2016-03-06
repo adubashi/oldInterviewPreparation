@@ -1,0 +1,37 @@
+import java.util.*;
+
+
+
+public class MinStack extends java.util.Stack<Integer> {
+	
+	java.util.Stack<Integer> s2;
+	
+	public MinStack(){
+		s2 = new java.util.Stack<Integer>();
+	}
+	
+	public int min(){
+		if(s2.isEmpty()){
+			return s2.peek();
+		} else {
+			return Integer.MIN_VALUE;
+		}
+	}
+	
+	public void push(int value){
+		if(value <= min()){
+			s2.push(value);
+		}
+		super.push(value);
+	}
+	
+	public int pop(){
+		
+	}
+	
+	
+	
+	
+	
+
+}

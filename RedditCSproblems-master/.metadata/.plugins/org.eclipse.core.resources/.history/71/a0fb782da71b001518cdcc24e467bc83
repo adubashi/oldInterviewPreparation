@@ -1,0 +1,17 @@
+
+public class multiplyingTwoIntegers {
+	
+	public static void main(String Args[]){
+		System.out.prinlnt(multiply(4,5));
+	}
+	
+	public static int multiply(int a, int b){
+		int product = 0;	
+		while(b > 0){
+			product = product + a;
+			
+		}
+		return product;
+	}
+
+}

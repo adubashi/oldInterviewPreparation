@@ -1,0 +1,36 @@
+import validSumTree.BNode;
+
+
+public class isSubTree {
+
+	/**
+	 * @param args
+	 */
+	public static class BNode{
+		int data;
+		BNode left;
+		BNode right;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean areIdentical(BNode root1, BNode root2){
+		if(root1 == null || root2 == null){
+			return true;
+		}
+		if( root1 == null || root2 == null){
+			return false;
+		}
+		
+		return (root1.data == root2.data) &&
+				areIdentical(root1.right,root2.right) &&
+				areIdentical(root1.left,root2.left);
+	}
+	
+	
+
+}

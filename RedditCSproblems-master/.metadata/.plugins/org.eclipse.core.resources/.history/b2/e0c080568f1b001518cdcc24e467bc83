@@ -1,0 +1,8 @@
+
+public class commonElements {
+	
+	public static void displayCommonElements(int[] a1, int[] a2){
+		
+	}
+
+}

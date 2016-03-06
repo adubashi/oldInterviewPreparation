@@ -1,0 +1,13 @@
+
+public class MergedSortedArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void merge(int[] a, int[] b, int lastA, int lastB){
+		int indexA = lastA  - 1;
+	}
+
+}

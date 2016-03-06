@@ -1,0 +1,25 @@
+
+public class numberToString {
+
+	/**
+	 * @param args
+	 */
+	String[] digits = {"Ones", "Two","Three","Four","Five", "Six", "Seven", "Eight", "Nine"};
+	String[] teens = {"Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen","Sixteen", "Seventeen", "Eighteen",
+					  "Nineteen"};
+	String[] tens = {"Ten", "Twenty", "Thirty", "Thirty", "Forty", "Fifty", "Sixty",
+					 "Seventy", "Eighty", "Ninety"};
+	String[] bigs = {"", "Thousand", "Million", "Billion"};
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static String numToString(int number){
+		
+	}
+	
+	
+
+}

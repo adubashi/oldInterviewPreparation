@@ -1,0 +1,26 @@
+
+public class mostFrequentInt {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	//From 0 to high
+	public static int mostFrequentInt(int high, int[] array){
+		int[] table = new int[high+1];
+		int numberOfMax =0;
+		int mostFrequent = 0;
+		for(int i = 0; i < array.length; i++){
+			table[array[i]]++;
+			
+			if(table[array[i]] > numberOfMax ){
+				numberOfMax = table[array[i]]
+				mostFrequent = array[i];
+			}
+		}
+	}
+
+}

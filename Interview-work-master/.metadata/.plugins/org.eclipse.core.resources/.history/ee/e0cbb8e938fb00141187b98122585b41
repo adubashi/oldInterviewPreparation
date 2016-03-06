@@ -1,0 +1,32 @@
+
+public class PalindromeSubstrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean is_palindrome(String input, int i, int j){
+		while(i < j){
+			if(input.charAt(i) != input.charAt(j)){
+				return false;		
+			}
+			i++;
+			j--;
+		}
+		return true;
+	}
+	
+	//Naive solution
+	
+	public static int findAllSubstrings(String input){
+		int count = 0;
+		for(int i = 0; i < input.length(); i++){
+			for(int j = i + 1; j <input.length(); j++){
+				if(is_palindrome(input,i,j))
+			}
+		}
+	}
+	
+	
+}

@@ -1,0 +1,16 @@
+
+public class maximumOfTwoNumbers {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int flip(int bit){
+		return 1^bit;
+	}
+
+}

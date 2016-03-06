@@ -1,0 +1,22 @@
+
+public class Heap {
+	public int[] array;
+	public int count;
+	public int capacity;
+	public int heap_type;
+	
+	public Heap(int capacity, int heap_type){
+		this.heap_type = heap_type;
+		this.count = 0;
+		this.capacity = capacity;
+		this.array = new int[capacity];
+	}
+	
+	public int parent(int i){
+		if( i <= 0 || i >= this.count){
+			
+		}
+		
+	}
+
+}

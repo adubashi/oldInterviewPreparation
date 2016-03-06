@@ -1,0 +1,23 @@
+
+public class MaxTwoNumbers {
+	public static void main(String Args[]){
+		
+		
+	}
+	
+	public static int[] maxTwoNum(int[] arr){
+		int[] max = new int[2];
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return max;
+	}
+
+}

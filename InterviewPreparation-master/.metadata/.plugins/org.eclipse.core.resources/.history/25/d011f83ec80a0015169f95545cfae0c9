@@ -1,0 +1,7 @@
+
+public class magicIndex {
+	public static int magicSlow(int[] array){
+		
+	}
+
+}

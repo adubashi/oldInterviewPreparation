@@ -1,0 +1,9 @@
+
+public class binaryTrees {
+	public class bNode {
+		int data;
+		bNode right;
+		
+	}
+
+}

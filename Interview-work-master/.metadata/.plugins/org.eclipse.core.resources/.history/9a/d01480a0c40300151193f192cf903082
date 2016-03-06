@@ -1,0 +1,6 @@
+
+public class DLLNode {
+	private int data;
+	private DLLNode next;
+
+}

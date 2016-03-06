@@ -1,0 +1,19 @@
+
+public class findAllSubsets {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public int getBit(int num, int bit){
+		int temp = (1 << bit);
+		temp = temp & num;
+		if(temp == 0){
+			return 0;s
+		}
+		
+		return 1;
+	}
+
+}

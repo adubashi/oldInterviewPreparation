@@ -1,0 +1,45 @@
+
+public class selectionSort {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void selectionSort(int[] array){
+		int positionOfMax = 0;
+		for(int i = 0; i < array.length; i++ ){
+			positionOfMax = 0;
+			for(int j = i + 1; j < array.length; j++){
+				if(array[j] > array[j]){
+					swap(array,i,j);
+				}
+				
+			}
+		}
+	}
+	
+	public static int findMin(int[] array, int startIndex){
+		int min = array[startIndex];
+		int minIndex = startIndex;
+		for(int i = startIndex; i < array.length; i++){
+			if(array[startIndex] < min){
+			   min = array[i];
+			   minIndex = i;
+			}
+			
+		}
+	}
+	
+	public static void swap(int[] array, int i, int j){
+		int temp = array[i];
+		
+		array[i] = array[j];
+		
+		array[j] = temp;
+	}
+
+}

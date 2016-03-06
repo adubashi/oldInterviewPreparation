@@ -1,0 +1,30 @@
+import java.util.*;
+public class RemoveDuplicates {
+	
+	
+	public static void main(String Args[]){
+		
+		
+		int[] str = {12,17,5,5};
+		System.out.println(Arrays.toString(str));
+		removeDups(str);
+		
+		System.out.println(removeDups(str));
+	}
+	
+	
+	public static int[] removeDups(int[] arr) {
+	    Set<Integer> alreadyPresent = new HashSet<>();
+	    int[] whitelist = new int[arr.length];
+	    int i = 0;
+
+	    for (int element : arr) {
+	        if (alreadyPresent.add(element)) {
+	            whitelist[i++] = element;
+	        }
+	    }
+
+	    return Arrays.copyOf(whitelist, i);
+	}
+
+}

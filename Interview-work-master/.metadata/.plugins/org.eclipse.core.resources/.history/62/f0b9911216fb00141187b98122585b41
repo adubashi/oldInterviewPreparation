@@ -1,0 +1,14 @@
+
+public class FindThreeSmallestCommonNumbers {
+	
+	public static void main(String[] Args){
+		
+	}
+	
+	public static int ThreeSmall(int[] arr, int[] arr2, int[] arr3){
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+import java.util.*;
+
+import verifyBST.BSTNode;
+
+public class findSmallestElementInBST {
+
+	/**
+	 * @param args
+	 */
+	public static class BSTNode{
+		int data;
+		BSTNode left;
+		BSTNode right;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static BSTNode findSmallest(BSTNode root){
+		while(root.left != null){
+			root = root.left;
+		}
+	}
+
+}

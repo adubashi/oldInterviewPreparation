@@ -1,0 +1,13 @@
+
+public class Stack {
+
+	public static class StackNode {
+		public int data;
+		public StackNode next;
+		
+		public StackNode(){
+			
+		}
+	}
+
+}

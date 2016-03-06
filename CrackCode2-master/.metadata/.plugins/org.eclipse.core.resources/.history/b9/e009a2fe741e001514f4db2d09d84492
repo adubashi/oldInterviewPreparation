@@ -1,0 +1,15 @@
+import java.util.*;
+
+
+public class listOfAllNodesAtDepth {
+	public static class TreeNode {
+		int data;
+		TreeNode left;
+		TreeNode right;
+	}
+	
+	public static void createLevelLinkedList(TreeNode root, ArrayList<LinkedList<TreeNode>> lists, int level){
+		
+	}
+
+}

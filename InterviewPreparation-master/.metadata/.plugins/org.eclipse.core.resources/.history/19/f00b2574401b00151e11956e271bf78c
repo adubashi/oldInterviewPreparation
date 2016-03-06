@@ -1,0 +1,17 @@
+
+public class checkTicTacToeWinner {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int convertBoardToInt(char[][] board){
+		int factor = 1;
+		int sum = 0;
+	}
+
+}

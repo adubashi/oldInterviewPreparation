@@ -1,0 +1,10 @@
+
+public class RemoveDuplicates {
+	
+	
+	public static void removeDups(char[] str){
+		Hashtable<String, Integer> numbers
+	     = new Hashtable<String, Integer>();
+	}
+
+}

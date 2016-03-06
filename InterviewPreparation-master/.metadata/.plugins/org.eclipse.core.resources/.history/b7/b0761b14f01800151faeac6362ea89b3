@@ -1,0 +1,16 @@
+
+public class numberToString {
+
+	/**
+	 * @param args
+	 */
+	String[] digits = {"Ones", "Two",}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+
+}

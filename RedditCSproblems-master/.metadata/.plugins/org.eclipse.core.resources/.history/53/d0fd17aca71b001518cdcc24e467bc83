@@ -1,0 +1,19 @@
+
+public class multiplyingTwoIntegers {
+	
+	public static void main(String Args[]){
+		System.out.println(multiply(-4,5));
+		System.out.println(4 * 5);
+	}
+	
+	public static int multiply(int a, int b){
+		int product = 0;	
+		while(b > 0){
+			product = product + a;
+			b--;
+		}	
+		return -1*product;
+		 
+	}
+
+}

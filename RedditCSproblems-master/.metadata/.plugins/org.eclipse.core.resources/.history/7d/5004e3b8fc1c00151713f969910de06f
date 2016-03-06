@@ -1,0 +1,41 @@
+import java.util.*;
+
+
+public class Queue {
+	
+	public static class QueueNode {
+		public int data;
+		public QueueNode next;
+		
+		public QueueNode(int data){
+			this.data = data;
+		}
+		
+		public int getData(){
+			return this.data;
+		}
+	}
+	
+	public QueueNode front;
+	public int size;
+	
+	public Queue(){
+		front = null;
+		size = 0;
+	}
+	
+	public void enqueue(int data){
+		QueueNode newNode = new QueueNode(data);
+		newNode.next = front;
+		front = newNode;
+		size++;
+	}
+	
+	public int pop(){
+		QueueNode newNode = new QueueNode(data);
+		newNode.next = front;
+		front = newNode;
+		size++;
+	}
+
+}

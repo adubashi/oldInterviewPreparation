@@ -1,0 +1,35 @@
+import java.util.List;
+
+
+public class AllPossibleParentheses {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void printList(List<Integer> v){
+		for (int i : v){
+			System.out.print(i + ",");
+		}
+		System.out.println("");
+	}
+	
+	public static void printAllBracketRec(int n, int left, int right, List<Character> output)
+	{
+		if(left >= n && right >= n){
+			printList(output);
+		}
+		if(left < n){
+			output.add('(');
+			printAllBracketRec(n, left + 1, right, output);
+			output.remove(output.size() - 1);
+		}
+		if(right < left){
+			output.add(')');
+			printAllBracketRec(n, left, right + 1, output);
+			output.remove(output.size() - 1);
+		}
+		
+	}
+}

@@ -1,0 +1,13 @@
+
+public class makeChange {
+	
+	public static int makeChangeRec(int amount, int[] denoms, int index){
+		if(index >= denoms.length - 1){
+			return 1;
+		} 
+		int denomAmount = denoms[index];
+		
+	}
+	
+
+}

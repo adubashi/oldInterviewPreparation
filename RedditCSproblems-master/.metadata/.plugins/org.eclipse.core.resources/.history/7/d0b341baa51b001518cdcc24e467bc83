@@ -1,0 +1,23 @@
+
+public class exponentFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public static int exponent(int number, int power){
+		if ( n == 0 ) {
+	        return 1;
+	    }
+	    if ( n % 2 == 1 ) {
+	        // Odd n
+	        return a * pow( a, n/2 ) * pow(a, n/2 );
+	    } else {
+	        // Even n
+	        return pow( a, n/2 ) * pow( a, n/2 );
+	    }
+	}
+
+}

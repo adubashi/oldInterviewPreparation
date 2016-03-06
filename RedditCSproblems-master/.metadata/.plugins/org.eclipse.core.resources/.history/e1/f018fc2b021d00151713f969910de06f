@@ -1,0 +1,9 @@
+
+public class QueueUsingStacks {
+	
+	java.uti.Stack<Integer> stackNew;
+	Stack<Integer> stackNew;
+	
+	
+
+}

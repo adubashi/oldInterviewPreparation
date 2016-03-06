@@ -1,0 +1,71 @@
+
+public class HashTable {
+	private final static int TABLE_SIZE = 128;
+	private HashEntry[] table;
+	
+	HashTable() {
+        table = new HashEntry[TABLE_SIZE];
+        for (int i = 0; i < TABLE_SIZE; i++)
+              table[i] = null;
+    }
+	
+	public int get(int key) {
+		int hash = key % TABLE_SIZE;
+		while(table[hash] != null && table[hash].getKey() != key){
+			hash = (hash + 1) % TABLE_SIZE;
+		}
+		if(table[hash] == null){
+			return -1;
+		} else{
+			return table[hash].getValue();
+		}
+	}
+	
+	//Linear probing
+	public void put(int key, int value){
+		int hash = (key % TABLE_SIZE);
+		while (table[hash] != null && table[hash].getKey() != key){
+			hash = (hash + 1) % TABLE_SIZE;
+		}
+        table[hash] = new HashEntry(key, value);
+	}
+	
+	//Quadratic probing 
+	public void putQuad(int key, int value){
+		int hash = (key % TABLE_SIZE);
+		int i = 0;
+		while (table[hash] != null && table[hash].getKey() != key){
+			hash = (hash + i*i) % TABLE_SIZE;
+			i++;
+		}
+        table[hash] = new HashEntry(key, value);
+	}
+	
+	//Double probing
+	public void putDoubleHash(int key, int value){
+		int hash = (key % TABLE_SIZE);
+		int i = 0;
+		while (table[hash] != null && table[hash].getKey() != key){
+			hash = (hash + i*i) % TABLE_SIZE;
+			i++;
+		}
+        table[hash] = new HashEntry(key, value);
+	}
+	
+	//h2(x) = R – (x mod R)
+	public int secondHash(int x){
+		return 53 - (x % 53);
+	}
+	
+	public void putDoubleHash(int key, int value){
+		int hash = secondHash(key);
+		int i = 0;
+		while (table[hash] != null && table[hash].getKey() != key){
+			hash = secondHash(key + 2);
+			i++;
+		}
+        
+	}
+	
+
+}

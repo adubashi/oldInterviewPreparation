@@ -1,0 +1,12 @@
+
+public class paintFill {
+	
+	enum Color {
+		Black, White, Red, Yellow, Green		
+	}
+	
+	public static boolean paintFill(Color[][] screen, int x, int y, Color ocolor, Color ncolor){
+		
+	}
+
+}

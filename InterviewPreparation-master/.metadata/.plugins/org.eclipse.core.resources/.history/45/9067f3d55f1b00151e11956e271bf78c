@@ -1,0 +1,22 @@
+
+public class countTwos {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int numberOf2s(int n){
+		int count = 0;
+		while(n > 0){
+			if(n % 10 == 2){
+				count++;
+			}
+			n= n/ 10l
+		}
+	}
+
+}

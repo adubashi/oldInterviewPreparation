@@ -1,0 +1,28 @@
+
+public class checkForRotation {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public static boolean findSubArray2(int[] array1, int[] array2){
+		 
+		 
+		HashSet<Integer> hs = new HashSet<Integer>();
+ 
+		for(int i=0; i<array1.length; i++)
+			hs.add(array1[i]);
+ 
+		for(int j=0; j<array2.length; j++){
+			if(hs.contains(array2[j]) == false)
+				return false;
+		}
+		return true;
+	}	
+
+}

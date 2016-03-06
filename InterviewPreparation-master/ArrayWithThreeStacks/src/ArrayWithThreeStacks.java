@@ -1,0 +1,42 @@
+
+public class ArrayWithThreeStacks {
+	int stackSize = 100;
+	int[] buffer = new int[stackSize * 3];
+	int[] stackPointer = {-1,-1,-1};
+	
+	int absTopOfStack(int stackNum){
+		return stackNum * stackSize + stackPointer[stackNum];
+	}
+	
+	boolean isEmpty(int stackNum){
+		return stackPointer[stackNum] == -1;
+	}
+	
+	void push(int stackNum, int value){
+		if(stackPointer[stackNum] + 1 >= stackSize){
+			return;
+		}
+		stackPointer[stackNum]++;
+		buffer[absTopOfStack(stackNum)] = value;
+	}
+	
+	int pop(int stackNum) {
+		if(isEmpty(stackNum)){
+			return 0;
+		}
+		int value = buffer[absTopOfStack(stackNum)];
+		buffer[absTopOfStack(stackNum)] = 0;
+		stackPointer[stackNum]--;
+		return value;
+	}
+	
+	int peek(int stackNum){
+		if(isEmpty(stackNum)){
+			return 0;
+		} 
+		int index = absTopOfStack(stackNum);
+		return buffer[index];
+	}
+	
+
+}

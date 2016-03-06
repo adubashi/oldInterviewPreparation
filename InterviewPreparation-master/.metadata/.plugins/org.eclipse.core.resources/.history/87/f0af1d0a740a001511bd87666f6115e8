@@ -1,0 +1,17 @@
+
+public class searchEmptyStrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public int searchR(String[] strings, String str, int first, int last){
+		
+		if(first > last){
+			return -1;
+		}
+		int mid = (first + last)/2;
+	}
+
+}

@@ -1,0 +1,40 @@
+
+import java.util.*;
+
+public class allsumCombinations {
+
+	public static void main(String[] args) {
+		printAllSum(5)
+
+	}
+	
+	public static void printList(List<Integer> v){
+		for (int i : v){
+			System.out.print(i + ",");
+		}
+		System.out.println("");
+	}
+	
+	public static void print_all_sum_rec(int target, int currentSum, int start, List<Integer> output){
+		if(target == currentSum){
+			printList(output);
+		}
+		
+		for(int i = start; i < target; i++){
+			int tempsum = currentSum + i;
+			if(tempsum <= target){
+				output.add(i);
+				print_all_sum_rec(target, tempsum, i, output);
+				output.remove(output.size() - 1);
+			} else {
+				return;
+			}
+		}
+		
+	}
+	
+	public void printAllSum(int target){
+		List<Integer> output  = new ArrayList<Integer>();
+		print_all_sum_rec(target, 0,1,output);
+	}
+}

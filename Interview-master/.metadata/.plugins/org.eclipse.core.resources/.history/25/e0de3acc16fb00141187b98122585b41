@@ -1,0 +1,22 @@
+
+public class FindThreeSmallestCommonNumbers {
+	
+	public static void main(String[] Args){
+		
+	}
+	
+	
+	//3 arrays
+	//
+	public static int ThreeSmall(int[] arr, int[] arr2, int[] arr3){
+		//Find iteration distance
+		
+		int i = 0, j = 0, k = 0;
+		
+		while( i < arr.length && j < arr2.length && k < arr3.length)
+		
+		
+		
+	}
+
+}

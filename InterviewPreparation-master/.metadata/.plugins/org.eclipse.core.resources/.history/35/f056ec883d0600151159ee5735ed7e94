@@ -1,0 +1,13 @@
+
+public class Heap {
+	public int[] array;
+	public int count;
+	public int capacity;
+	public int heap_type;
+	
+	public Heap(int capacity, int heap_type){
+		this.heap_type = heap_type;
+		this.count = 0;
+	}
+
+}

@@ -1,0 +1,31 @@
+import java.util.*;
+
+
+public class Queue {
+	
+	public static class QueueNode {
+		public int data;
+		public QueueNode next;
+		
+		public QueueNode(int data){
+			this.data = data;
+		}
+		
+		public int getData(){
+			return this.data;
+		}
+	}
+	
+	public QueueNode top;
+	public int size;
+	
+	public Queue(){
+		top = null;
+		size = 0;
+	}
+	
+	public void push(int data){
+		
+	}
+
+}

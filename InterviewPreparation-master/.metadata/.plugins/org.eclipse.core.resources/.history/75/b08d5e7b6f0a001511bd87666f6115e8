@@ -1,0 +1,10 @@
+import java.util.*;
+public class groupingAnagrams implements Comparator<String> {
+	
+	public String sortChars(String s){
+		char[] content = s.toCharArray();
+		Arrays.sort(content);
+	}
+	
+
+}

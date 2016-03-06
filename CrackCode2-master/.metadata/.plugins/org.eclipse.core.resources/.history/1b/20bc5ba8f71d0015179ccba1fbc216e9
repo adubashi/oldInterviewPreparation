@@ -1,0 +1,11 @@
+import java.util.*;
+public class emptyStringSearch {
+	
+	public int searchR(String[] strings, String str, int first,int last){
+			
+		if(first > last) {
+			return -1;
+		}
+	}
+
+}

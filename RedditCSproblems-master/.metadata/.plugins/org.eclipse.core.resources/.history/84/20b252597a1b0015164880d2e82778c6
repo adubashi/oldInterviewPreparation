@@ -1,0 +1,20 @@
+
+public class fibonacci {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int fibonacci(int i){
+		if(i == 0){
+			return 0;
+		} else if(i == 1){
+			return 1;
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class LinkedListNode {
+	public int data;
+	public LinkedListNode next;
+	
+	public LinkedListNode(int data){
+		this.data = data;
+		this.next = null;
+	}
+	
+	public void print(){
+		while(this.next !=  null){
+			System.out.print(data);
+			System.out.print("->");
+			this = this.next;
+		}
+		System.out.print("null");
+	}
+}

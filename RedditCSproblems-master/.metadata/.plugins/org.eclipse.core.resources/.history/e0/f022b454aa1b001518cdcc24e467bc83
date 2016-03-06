@@ -1,0 +1,13 @@
+
+public class squareRoot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static double square_root_iterative(double num){
+		
+	}
+
+}

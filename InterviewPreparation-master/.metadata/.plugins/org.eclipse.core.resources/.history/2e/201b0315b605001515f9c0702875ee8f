@@ -1,0 +1,39 @@
+
+import java.util.*;
+
+public class HeapSort {
+	
+	
+	private static int N;
+	
+	/* Sort Function */
+    public static void sort(int arr[])
+    {       
+        heapify(arr);        
+        for (int i = N; i > 0; i--)
+        {
+            swap(arr,0, i);
+            N = N-1;
+            maxheap(arr, 0);
+        }
+    }  
+    
+    public static void heapify(int arr[])
+    {
+        N = arr.length-1;
+        for (int i = N/2; i >= 0; i--)
+            maxheap(arr, i);        
+    }
+	
+	public static void swap(int arr[], int i, int j)
+    {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp; 
+    } 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

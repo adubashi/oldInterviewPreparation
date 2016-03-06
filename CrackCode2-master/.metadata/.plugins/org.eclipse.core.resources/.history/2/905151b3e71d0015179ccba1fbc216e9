@@ -1,0 +1,20 @@
+import java.util.*;
+
+
+public class getSubsets {
+	
+	ArrayList<ArrayList<Integer>> getSubsetsRec(ArrayList<Integer> set, int index){
+		
+		ArrayList<ArrayList<Integer>> allsubsets;
+		
+		if(set.size() == index){
+			allsubsets = new ArrayList<ArrayList<Integer>>();
+			allsubsets.add(new ArrayLis<Integer>());
+		}
+		
+	}
+	
+	
+	
+
+}

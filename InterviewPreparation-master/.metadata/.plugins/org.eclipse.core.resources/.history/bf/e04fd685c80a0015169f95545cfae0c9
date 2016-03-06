@@ -1,0 +1,17 @@
+
+public class magicIndex {
+	public static int magicSlow(int[] array){
+		for(int i = 0; i < array.length; i++){
+			if(array[i] == i){
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	//Distinct
+	public static int magicFast(int[] array, int start ,int end){
+		
+	}
+
+}

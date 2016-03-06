@@ -1,0 +1,9 @@
+import java.util.*;
+public class RemoveDuplicates {
+	
+	
+	public static void removeDups(char[] str){
+		Hashtable<String, Integer> number = new Hashtable<String, Integer>();
+	}
+
+}

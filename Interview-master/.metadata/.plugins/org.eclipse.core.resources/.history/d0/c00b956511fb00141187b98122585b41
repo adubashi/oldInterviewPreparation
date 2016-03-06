@@ -1,0 +1,10 @@
+
+public class MaxTwoNumbers {
+	public static void main(String Args[]){
+		
+		public static int[] MaxTwoNumbers(int[] arr){
+			int[] myIntArray = new int[3];
+		}
+	}
+
+}

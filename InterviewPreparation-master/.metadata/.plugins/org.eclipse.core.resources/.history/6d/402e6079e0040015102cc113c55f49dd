@@ -1,0 +1,85 @@
+import java.util.*;
+public class binaryTrees {
+	public class bNode {
+		int data;
+		bNode left;
+		bNode right;
+	}
+	
+	public static void preOrder(bNode root){
+		if(root != null){
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}	
+	}
+	
+	public static void postOrder(bNode root){
+		if(root != null){
+			System.out.println(root.data);
+			postOrder(root.left);
+			postOrder(root.right);
+		}	
+	}
+	
+	public static void InOrder(bNode root){
+		if(root != null){
+			//System.out.println(root.data);
+			postOrder(root.left);
+			System.out.println(root.data);
+			postOrder(root.right);
+		}	
+	}
+	
+	public static void InOrderNonRecursive(bNode root){
+		if(root == null){
+			return;
+		} 
+		Stack<bNode> s = new Stack<bNode>();
+		while(true){
+			while(root != null){
+				s.push(root);
+				root = root.left;			
+			}
+			if(s.isEmpty()){
+				break;
+			}
+			root = s.pop();
+			System.out.println(root.data);
+			root = root.right;
+		}
+		return;
+	}
+	
+	public static int findMax(bNode root){
+		int rootVal, left, right, max = Integer.MIN_VALUE;
+		
+		if(root == null){
+			rootVal = root.data;
+			left = findMax(root.left);
+			right = findMax(root.right);
+			if(left > right){
+				max = left;
+			} else {
+				max = right;
+			}
+			if( rootVal > max){
+				max = rootVal;
+			}
+			
+		}
+		
+		return max;
+	}
+	
+	//Search for an element in a binary tree
+	
+	public static boolean findInBinaryTreeRecur(bNode root, int number){
+		if(root == null){
+			return false;
+		} else {
+			if()
+		}
+	}
+
+}

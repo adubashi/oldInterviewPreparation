@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+completion_tips_seen=org.eclipse.recommenders.subwords.rcp.tips.enableSubwords
+=======
+completion_tips_seen=org.eclipse.recommenders.completion.rcp.tips.discovery\:org.eclipse.recommenders.subwords.rcp.tips.enableSubwords
+>>>>>>> 9e99c1319bd43919dffb8650c6d4f141520072e8
+eclipse.preferences.version=1

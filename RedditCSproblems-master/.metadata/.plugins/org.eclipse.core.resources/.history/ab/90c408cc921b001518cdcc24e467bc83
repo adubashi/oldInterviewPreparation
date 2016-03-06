@@ -1,0 +1,19 @@
+
+public class findNonRepeatedElement {
+	
+	public static void main(String Args[]){
+		
+	}
+	
+	
+	public static int findNonRepeatedElement(int[] arr){
+		int result = 0;
+		for (int a : arr){
+		    result ^= a;
+		}
+		
+		return result;
+		
+	}
+
+}

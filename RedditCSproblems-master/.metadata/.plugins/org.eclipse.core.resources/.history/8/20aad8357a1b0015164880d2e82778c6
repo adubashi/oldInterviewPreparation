@@ -1,0 +1,21 @@
+
+public class fibonacci {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static int fibonacci(int n){
+		if(n== 1 || n == 2){
+            return 1;
+        }
+ 
+        return fibonacciRecusion(n-1) + fibonacciRecusion(n -2); //tail recursion
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class multiplyingTwoIntegers {
+	
+	public static int multiply(int a, int b){
+		int product = 0;	
+		while(b > 0{
+			
+		}
+	}
+
+}

@@ -1,0 +1,40 @@
+import java.util.*;
+public class binaryTrees {
+	public class bNode {
+		int data;
+		bNode left;
+		bNode right;
+	}
+	
+	public static void preOrder(bNode root){
+		if(root != null){
+			System.out.println(root.data);
+			preOrder(root.left);
+			preOrder(root.right);
+		}	
+	}
+	
+	public static void postOrder(bNode root){
+		if(root != null){
+			System.out.println(root.data);
+			postOrder(root.left);
+			postOrder(root.right);
+		}	
+	}
+	
+	public static void InOrder(bNode root){
+		if(root != null){
+			//System.out.println(root.data);
+			postOrder(root.left);
+			System.out.println(root.data);
+			postOrder(root.right);
+		}	
+	}
+	
+	public static void InOrderNonRecursive(bNode root){
+		if(root == null){
+			return null;
+		}
+	}
+
+}

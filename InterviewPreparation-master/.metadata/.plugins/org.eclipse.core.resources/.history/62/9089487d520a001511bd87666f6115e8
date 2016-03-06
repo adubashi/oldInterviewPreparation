@@ -1,0 +1,70 @@
+
+public class LinkedListPalindrome {
+
+	public static void main(String[] args) {
+		LinkedListNode head = new LinkedListNode(1);
+		LinkedListNode h2 = new LinkedListNode(2);
+		LinkedListNode h3 = new LinkedListNode(3);
+		LinkedListNode h4 = new LinkedListNode(2);
+		LinkedListNode h5 = new LinkedListNode(1);
+		
+		head.next = null;
+		h2.next = null;
+		
+		
+		h3.next = h4;
+		h4.next = h5;
+		h5.next = null;
+		
+		head.print();
+		
+	}
+	
+	public static LinkedListNode reverseList(LinkedListNode head){
+		  LinkedListNode previousNode=null;  
+		  LinkedListNode nextNode; 
+		  while(head !=null)  
+		  {  
+			  nextNode = head.next;
+			  head.next = previousNode;
+			  previousNode = head;
+			  
+			  head = nextNode;
+		  } 
+		  return previousNode;
+
+	}
+	
+	
+	public static void reverseListNon(LinkedListNode head){
+		LinkedListNode prev = null;
+		LinkedListNode next;
+		while(head != null){
+			next = head.next;
+			head.next = prev;
+			prev = head;
+			head = next;
+		}
+		
+		head = prev;
+		
+		
+	}
+	
+	public static LinkedListNode reverseListRecur(LinkedListNode head){
+		if(head == null || head.next == null){
+			return head;
+		}
+		
+		LinkedListNode rev = reverseListRecur(head.next);
+		head.next.next = head;
+		head.next = null;
+		return rev;
+	}
+	
+	public static boolean isPalindrome(LinkedListNode head){
+		
+		return false;
+	}
+
+}

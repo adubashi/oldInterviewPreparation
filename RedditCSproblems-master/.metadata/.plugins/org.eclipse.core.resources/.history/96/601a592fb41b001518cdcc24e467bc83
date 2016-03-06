@@ -1,0 +1,13 @@
+
+public class allUniques {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean allUnique(String test){
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+import java.util.*;
+public class SameSetOfNumbers {
+	public static boolean sameSet(int[] a1, int[] a2){
+		Hashtable<Integer, Integer> test  = new Hashtable<Integer, Integer>();
+		
+		
+	}
+
+}

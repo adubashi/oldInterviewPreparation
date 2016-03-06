@@ -1,0 +1,16 @@
+import java.util.*;
+public class anagramSorter {
+	
+	//Sort words so that anagrams are next to each other
+	public void sort(String[] array){
+		
+		Hashtable<String, LinkedList<String>> hash = new Hashtable<String, LinkedList<String>>();
+		
+		for(String s: array){
+			
+		}
+		
+		
+	}
+
+}

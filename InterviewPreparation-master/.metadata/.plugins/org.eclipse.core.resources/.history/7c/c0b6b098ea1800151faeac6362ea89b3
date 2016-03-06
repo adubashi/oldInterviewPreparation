@@ -1,0 +1,16 @@
+
+public class LargestContinuousSequence {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	//Finding the contiguous sequence with the largest sum
+	
+	
+
+}

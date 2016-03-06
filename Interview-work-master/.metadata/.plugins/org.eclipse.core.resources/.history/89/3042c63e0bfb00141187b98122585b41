@@ -1,0 +1,16 @@
+
+public class RemoveConsecutiveDuplicates {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void removeDuplicates(char[] str) {
+		if (str == null) return;
+		  int len = str.length;
+		  if (len < 2) return;
+		  int tail = 1;
+	}
+
+}

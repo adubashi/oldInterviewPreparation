@@ -1,0 +1,14 @@
+
+public class exponentFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public static int exponent(int number, int power){
+		
+	}
+
+}

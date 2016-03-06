@@ -1,0 +1,13 @@
+import java.util.*;
+
+
+public class getSubsets {
+	
+	ArrayList<ArrayList<Integer>> getSubsets(ArrayList<Integer> set){
+		
+	}
+	
+	
+	
+
+}

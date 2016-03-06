@@ -1,0 +1,6 @@
+
+public class graphMatrix {
+	private boolean adjMatrix[][];
+	private int vertexCount;
+
+}

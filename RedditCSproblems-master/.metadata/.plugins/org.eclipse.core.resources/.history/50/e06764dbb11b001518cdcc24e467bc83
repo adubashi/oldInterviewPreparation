@@ -1,0 +1,21 @@
+
+public class reverseAString {
+	
+	
+	
+	
+	public static rev(char[] array){
+		int j = array.length - 1;
+		for(int i = 0; i < array.length/2; i++){
+			swap(i,)
+			
+		}
+	}
+	
+	public static void swap(char[] array, int i, int j){
+		char temp = array[i];
+		array[i] = array[j];
+		array[j] = temp;
+	}
+
+}

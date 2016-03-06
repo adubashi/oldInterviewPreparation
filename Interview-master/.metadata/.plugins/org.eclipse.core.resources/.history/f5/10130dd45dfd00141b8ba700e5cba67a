@@ -1,0 +1,11 @@
+
+public class HashEntry {
+	private int key;
+	private int value;
+	
+	HashEntry(int key, int value){
+		this.key = key;
+		
+	}
+
+}

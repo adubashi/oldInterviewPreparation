@@ -1,0 +1,22 @@
+
+public class FirstRepeatedChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static char firstRepeated(char[] str){
+		//Unicode string
+		int[] count = new int[128];
+		
+		for(int i = 0; i < str.length;i++){
+			if(count[str[i]] == 1){
+				System.out.println(str[i]);
+			} else {
+				count[str[i]]++;
+			}
+		}
+	}
+
+}

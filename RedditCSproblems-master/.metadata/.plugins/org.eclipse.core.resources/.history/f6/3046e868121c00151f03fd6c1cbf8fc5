@@ -1,0 +1,19 @@
+
+public class verifyBST {
+
+	/**
+	 * @param args
+	 */
+	
+	public static class BSTNode{
+		int data;
+		BSTNode left;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+
+public class mergeSort {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void mergeSort(int[] array, int low, int high){
+		if(low < high){
+			int middle = (low+high)/2;
+			mergeSort(array,low,middle);
+			mergeSort(array,middle+1,high);
+			merge(low,middle,high);
+			
+		}
+	}
+	
+	public static void merge(int low, int middle, int high){
+		int i1 = 0;
+		int i2 = low;
+		int i3 = middle + 1;
+		
+	}
+
+}

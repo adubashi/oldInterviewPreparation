@@ -1,0 +1,8 @@
+
+public class SearchInRotatedArray {
+	
+	public static int search(int a[], int left, int right, int x){
+		
+	}
+
+}

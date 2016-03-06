@@ -1,0 +1,28 @@
+
+public class RemoveWhiteSpaces {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean isSpace(char c){
+		
+		return c == ' ';
+	}
+	
+	public static void removeWhiteSpace(char[] s){
+		if(s == null || s.length == 0 || s[0] == '\0'){
+			return;
+		}
+		int read_ptr = 0;
+		int write_ptr = 0;
+		
+		while(read_ptr < s.length && s[read_ptr] != '\0'){
+			if(!isSpace(s[read_ptr])){
+				
+			}
+		}
+	}
+
+}

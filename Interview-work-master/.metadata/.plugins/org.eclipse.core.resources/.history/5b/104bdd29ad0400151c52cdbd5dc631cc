@@ -1,0 +1,25 @@
+
+public class binaryTrees {
+	public class bNode {
+		int data;
+		bNode left;
+		bNode right;
+	}
+	
+	public static void preorder(bNode root){
+		if(root != null){
+			System.out.println(root.data);
+			preorder(root.left);
+			preorder(root.right);
+		}	
+	}
+	
+	public static void preorder(bNode root){
+		if(root != null){
+			System.out.println(root.data);
+			preorder(root.left);
+			preorder(root.right);
+		}	
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class PalindromeSubstrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean is_palindrome(String input, int i, int j){
+		while(i < j)
+	}
+}

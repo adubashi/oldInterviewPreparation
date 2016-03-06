@@ -1,0 +1,6 @@
+
+public class Heap {
+	public int[] array;
+	public int count;
+
+}

@@ -1,0 +1,15 @@
+import java.util.*;
+public class RemoveDuplicates {
+	
+	
+	public static void removeDups(char[] str){
+		Hashtable<Character, Integer> number = new Hashtable<Character, Integer>();
+		int current = 0; 
+		int last = 0;
+		
+		for(current = 0; current < str.length; current++ ){
+			
+		}
+	}
+
+}
